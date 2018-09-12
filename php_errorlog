@@ -543,3 +543,12 @@ Stack trace:
 [28-Aug-2018 10:52:46 UTC] PHP Warning:  Illegal offset type in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/page-thuvien.php on line 608
 [28-Aug-2018 10:52:46 UTC] PHP Warning:  Illegal offset type in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/page-thuvien.php on line 608
 [29-Aug-2018 17:04:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/page-thuvien.php on line 395
+[08-Sep-2018 08:25:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/inc/pagination.php on line 43
+[08-Sep-2018 08:25:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/inc/pagination.php on line 43
+[10-Sep-2018 15:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/page-giadaudatochuc.php:68
+Stack trace:
+#0 /home/jpwebseo/public_html/demo/Haikyu/wp-includes/template-loader.php(74): include()
+#1 /home/jpwebseo/public_html/demo/Haikyu/wp-blog-header.php(19): require_once('/home/jpwebseo/...')
+#2 /home/jpwebseo/public_html/demo/Haikyu/index.php(17): require('/home/jpwebseo/...')
+#3 {main}
+  thrown in /home/jpwebseo/public_html/demo/Haikyu/wp-content/themes/btgame/page-giadaudatochuc.php on line 68

@@ -57,8 +57,11 @@
 														<?php $post_types = get_post_types(); ?>
 
 													<?php } else {?>
-														<div><a href="<?php echo get_home_url(); ?>/<?php printf( __( '%s', 'understrap' ), get_post_type( get_the_ID() ) ); ?>"><- Trở về <?php echo $post_type->label ?></a></div>
-														
+														<?php if (get_post_type( get_the_ID() ) == 'giai-dau') {  ?>
+															<div><a href="<?php echo get_home_url(); ?>/<?php printf( __( '%s', 'understrap' ), 'giai-dau-page' ); ?>"><- Trở về <?php echo $post_type->label ?></a></div>
+														<?php } else { ?>	
+															<div><a href="<?php echo get_home_url(); ?>/<?php printf( __( '%s', 'understrap' ), get_post_type( get_the_ID() ) ); ?>"><- Trở về <?php echo $post_type->label ?></a></div>
+														<?php } ?>
 													<?php $post_types = get_post_types(); ?>
 
 													<?php } ?>

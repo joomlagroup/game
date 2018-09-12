@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-03 15:34:53+0000\n"
+"PO-Revision-Date: 2018-09-11 09:48:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11075,7 +11075,7 @@ msgstr "Thông qua phản hồi này"
 
 #: wp-admin/includes/meta-boxes.php:299 wp-admin/includes/meta-boxes.php:300
 msgid "Submit for Review"
-msgstr "Đăng kí để được xét duyệt"
+msgstr "Gửi để duyệt"
 
 #: wp-admin/includes/nav-menu.php:363 wp-admin/includes/nav-menu.php:651
 msgid "Page"
@@ -11480,7 +11480,7 @@ msgstr "Mô tả sẽ hiển thị khi giữ chuột trên liên kết, hoặc h
 
 #: wp-admin/edit-link-form.php:111
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "Ví dụ <code>http://stnguyen.net/</code> &#8212; đừng quên <code>http://</code>"
+msgstr "Ví dụ: <code>https://wordpress.org/</code> &#8212; đừng quên bắt đầu bằng <code>https://</code>"
 
 #: wp-admin/edit-link-form.php:108
 msgid "Web Address"
@@ -11520,7 +11520,7 @@ msgstr "Đường dẫn:"
 
 #: wp-admin/themes.php:170 wp-admin/themes.php:172
 msgid "Visit site"
-msgstr "xem trang chủ"
+msgstr "Xem trang chủ"
 
 #: wp-admin/edit-form-comment.php:51
 msgid "Email:"
@@ -11560,7 +11560,7 @@ msgstr "Thảo luận"
 
 #: wp-admin/edit-form-advanced.php:287
 msgid "Custom Fields"
-msgstr "Trường tuỳ biến"
+msgstr "Trường tùy biến"
 
 #: wp-admin/edit-form-advanced.php:284
 msgid "Send Trackbacks"

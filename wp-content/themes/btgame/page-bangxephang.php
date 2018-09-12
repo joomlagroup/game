@@ -114,7 +114,7 @@ $hoten = isset($_GET['hoten']) ? $_GET['hoten'] : '';
                     global $wp_query;
                     $wp_query = new WP_User_Query($args);
                     $total_users = $wp_query->get_total();
-					          echo $total_users;
+					          //echo $total_users;
                     $num_pages = ceil($total_users / $users_per_page);
                     ?>
                     <div class="wrap-list-items">

@@ -147,3 +147,5 @@ Stack trace:
 [04-Sep-2018 03:11:36 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/jpwebseo/public_html/demo/Haikyu/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-grid-woocommerce.php on line 338
 [04-Sep-2018 03:16:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/jpwebseo/public_html/demo/Haikyu/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.php on line 302
 [04-Sep-2018 03:16:43 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/jpwebseo/public_html/demo/Haikyu/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-grid-woocommerce.php on line 338
+[07-Sep-2018 02:59:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/jpwebseo/public_html/demo/Haikyu/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.php on line 302
+[07-Sep-2018 02:59:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/jpwebseo/public_html/demo/Haikyu/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-grid-woocommerce.php on line 338

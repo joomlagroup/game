@@ -7,7 +7,9 @@
  * @package understrap
  */
 
-get_header(); ?>
+get_header(); 
+$postType = get_post_type();
+?>
 
 
 
@@ -24,8 +26,16 @@ get_header(); ?>
 									<div class="wpb_text_column wpb_content_element ">
 										<div class="wpb_wrapper">
 											<div class="div-title right ">
-												<?php $title = sprintf( __( '%s' ), single_cat_title( '', false ) ); ?>
-												<h3 class="title-noidung"><?php post_type_archive_title(); ?></h3>
+												<?php if ($postType == 'post') { ?>
+													<h3 class="title-noidung">
+													<?php 
+													echo sprintf( __( '%s' ), single_cat_title( '', false ) );
+													?>
+													</h3>
+												<?php } else { ?>
+													<?php $title = sprintf( __( '%s' ), single_cat_title( '', false ) ); ?>
+													<h3 class="title-noidung"><?php post_type_archive_title(); ?></h3>
+												<?php } ?>
 											</div>
 									</div>
 									<?php if ( have_posts() ) : ?>
@@ -35,11 +45,17 @@ get_header(); ?>
 														<div class="wpb_wrapper">
 															<div class="wpb_text_column wpb_content_element ">
 																<div class="wpb_wrapper">
-																	<?php while ( have_posts() ) : the_post(); 
-																		
- 																				get_template_part( 'loop-templates/content-sukien' ); 
-																		
-																	 endwhile; ?>			
+																	<?php if ($postType == 'post') { ?>	
+																		<ul class="post-content">
+																		<?php while ( have_posts() ) : the_post(); 
+																			get_template_part( 'loop-templates/content-default' ); 
+																		 endwhile; ?>
+																		</ul>	
+																	 <?php } else { ?>	
+																		<?php while ( have_posts() ) : the_post(); 
+																			get_template_part( 'loop-templates/content-sukien' ); 
+																		 endwhile; ?>																		 
+																	<?php } ?>
 																</div>
 															</div>
 														</div>

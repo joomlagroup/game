@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-  console.log ('js running');
   $('.card-item').matchHeight();
   $('.loaiquanco').change(function(){
     if($(this).val() == 2) {
